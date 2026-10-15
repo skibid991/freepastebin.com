@@ -1,0 +1,29 @@
+{
+  "name": "freepastebin-client",
+  "version": "0.1.0",
+  "description": "Share text and source code with a free pastebin API. Public or token-protected private pastes, raw text URLs, GET and POST creation. JavaScript, Python and Go SDKs.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "homepage": "https://freepastebin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skibid991/freepastebin.com.git",
+    "directory": "sdk/javascript"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE"
+  ]
+}
